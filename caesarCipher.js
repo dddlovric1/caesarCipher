@@ -4,7 +4,7 @@ function caesarCipher(string, number) {
     let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
     let newString ='';
 
-    for (var i = 0; i < lowerCaseString.length; i++) {
+    for (let i = 0; i < lowerCaseString.length; i++) {
         let currentLetter = lowerCaseString[i];
         if (currentLetter === ' ') {
             newString += currentLetter;
